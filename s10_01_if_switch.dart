@@ -52,6 +52,26 @@
 
 import 'dart:math';
 
+// void main(List<String> args) {
+//   const temp1 = [1,2,3];
+//   temp1[0] = 5;
+
+//   final temp2 = [1,2,3];
+//   temp2[0] = 5;
+
+//   var temp3 = [1,2,3];
+//   temp3[0] = 5;
+
+//   temp1 = [1,2,3];//const 라서 에러
+//   temp2 = [1,2,3];//final 라서 에러
+//   temp3 = [1,2,3];//var 라서 가능
+
+//   var temp4 = const [1,2,3];
+
+//   temp4[0] = 5;
+//   temp4 = [2,3,4] //const[1,2,3] 라서 에러
+// };
+
 void main(List<String> args) {
   int tempNum = Random().nextInt(2);
 
